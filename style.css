@@ -61,7 +61,7 @@ nav {
 nav > ul {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 30px;
 }
 
 a {
@@ -70,7 +70,7 @@ a {
 }
 
 nav > ul > li > a:hover {
-  text-decoration: underline;
+  color: var(--soft-red);
 }
 /*nav-end*/
 
@@ -115,9 +115,16 @@ a.btn {
   background-color: var(--soft-red);
   color: var(--off-white);
 }
+
+a.btn:hover {
+  background-color: var(--very-dark-blue);
+}
 /*Section-End*/
 
 /*Aside*/
+aside > .item > h3:hover{
+  color: var(--soft-orange);
+}
 
 .container>aside {
   padding: 20px;
@@ -150,6 +157,7 @@ aside > .item > p {
 /*Footer*/
 footer.container {
   gap:0;
+  margin-bottom: 20px;
 }
 footer.container>.item {
   display: flex;
@@ -174,6 +182,9 @@ footer.container > .item  h3 {
 
 footer.container > .item  h4 {
   margin: 10px 0 0;
+}
+h4:hover {
+  color: var(--soft-red);
 }
 
 footer.container > .item  p {
